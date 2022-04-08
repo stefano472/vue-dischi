@@ -7,13 +7,13 @@
 <script>
 export default {
     name: "HeaderComponent"
-
 }
 </script>
 
 <style scoped lang="scss">
 header {
     position: fixed;
+    top: 0;
     height: 4rem;
     padding: 0.5rem 1.5rem;
     width: 100%;
