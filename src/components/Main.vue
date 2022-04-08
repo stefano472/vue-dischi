@@ -35,7 +35,7 @@ export default {
                 .then(response => {
                     if (response.data.success) {
                         this.musicAlbums = response.data.response
-                    }
+                    } 
                 }
             )
         }
@@ -49,11 +49,10 @@ export default {
 
 <style scoped lang="scss">
 main {
-    margin-top: 4rem;
     .container {
-        width: min(80%, 1200px);
+        width: min(70%, 1200px);
         margin: auto;
-        padding: 3rem 0;
+        // padding: 3rem 0;
         display: flex;
         gap: 1rem;
         flex-wrap: wrap;

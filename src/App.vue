@@ -24,14 +24,25 @@ export default {
 </script>
 
 <style lang="scss">
+@import "~@fontsource/raleway/index.css";
+@import "~@fontsource/raleway/700.css";
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'raleway', sans-serif;
 }
 body {
   background: #1e2d3b;
   width: 100%;
   height: 100vh;
+}
+#app {
+  padding: 4.5rem 0 0.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 </style>

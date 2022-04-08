@@ -45,4 +45,12 @@ img {
     object-fit: cover;
     width: 100%;
 }
+h2 {
+    padding: 0.5rem 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
 </style>
