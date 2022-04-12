@@ -40,7 +40,7 @@ body {
   height: 100vh;
 }
 #app {
-  padding: 4.5rem 0 0.5rem;
+  padding: 5rem 0 0.5rem;
   height: 100%;
   display: flex;
   align-items: center;

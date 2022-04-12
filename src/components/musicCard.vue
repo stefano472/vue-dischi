@@ -41,15 +41,21 @@ export default {
     background: #2e3a46;
     word-break: break-word;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 img {
     aspect-ratio: 1/1;
     object-fit: cover;
     width: 100%;
+    border-radius: 5px;
 }
 .info {
-    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
     h2 {
+        flex-grow: 1;
         padding: 0.5rem 0;
         font-weight: 700;
         text-transform: uppercase;
@@ -59,6 +65,7 @@ img {
     }
     .author {
         color: #767879;
+        font-size: 0.9rem;
     }
     .year {
         color: #767879;

@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="scss">
 .lds-ellipsis {
   margin-top: 10rem;
   position: relative;
